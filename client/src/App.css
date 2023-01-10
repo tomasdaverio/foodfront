@@ -52,5 +52,7 @@ body{
   flex-direction: column ; 
   height:auto;
   align-items: center;
-  justify-content:space-between
+  justify-content:space-between ;
+  background-image: url("../src/resources/img/about2.jpg");
 }
+ 
