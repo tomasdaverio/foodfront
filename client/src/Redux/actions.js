@@ -3,7 +3,7 @@ import { GET_RECIPE_BY_NAME , GET_RECIPE_BY_ID , ADD_NEW_RECIPE, FILTER_BY_DIET,
 export const getRecipeByName = (recipe) => {
    return async (dispatch) => {
     try{
-        const response = await fetch(`http://localhost:3001/recipes?name=${recipe}`) ;
+        const response = await fetch(`https://foodback-production-b86e.up.railway.app/recipes?name=${recipe}`) ;
         const pay = await response.json() ;
         if(pay.error) {
             console.log(pay.status,pay.error) ;
@@ -29,7 +29,7 @@ export const getRecipeByName = (recipe) => {
 export const getRecipeById = (id) => {
     return async (dispatch) => {
      try{
-         const response = await fetch(`http://localhost:3001/recipes/${id}`) ;
+         const response = await fetch(`https://foodback-production-b86e.up.railway.app/recipes/${id}`) ;
          const pay = await response.json() ;
          if(pay.error) {
             console.log(pay.status,pay.error) ;
@@ -51,7 +51,7 @@ export const getRecipeById = (id) => {
 export const addRecipe = (data) => {
     return async (dispatch) => {
      try{
-         const response = await fetch('http://localhost:3001/recipes', {
+         const response = await fetch('https://foodback-production-b86e.up.railway.app/recipes', {
          method: 'POST', 
          body: JSON.stringify(data), 
          headers:{
