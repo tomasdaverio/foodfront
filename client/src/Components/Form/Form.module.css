@@ -52,3 +52,14 @@
 .goback{
     color:white 
 }
+
+@media (max-width:600px){
+    .form{
+    width:94%; 
+    
+    }
+    .form textarea {
+        width:90%
+    }
+      
+  }

@@ -30,7 +30,7 @@ import { NavLink } from 'react-router-dom' ;
         <div className={style.sort}>
 
           <form onSubmit={submitHandler} onChange={changeHandler}>
-          <label className={style.sep} htmlFor="order">Order From:</label>
+          <label htmlFor="order">Order From:</label>
           <select className={style.sep} name="order" id="order">
           <option value={ORDER_BY_AZ} disabled selected hidden>Choose an Order</option>
           <option value={ORDER_BY_AZ}>A to Z</option>

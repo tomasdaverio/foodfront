@@ -15,7 +15,7 @@ function Nav (){
 
             <span><NavLink to={'/app/recipe/about'} className={style.main}>About</NavLink></span> 
             <span><NavLink to={'/app/1'} className={style.main}>Home</NavLink></span>
-            <span><NavLink to={'/app/recipe/create'} className={style.main}>Create your Recipe!</NavLink></span>
+            <span><NavLink to={'/app/recipe/create'} className={style.main}>Add Recipe</NavLink></span>
             
         </div>
     )

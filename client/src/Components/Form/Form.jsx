@@ -104,7 +104,7 @@ export const Form = (props) => {
 
  return (
     <div className={style.form}>
-      <h1>Create your own Recipe!</h1>
+      <h1>Add your own Recipe!</h1>
          <form id='form' onSubmit={submitHandler}>
           
                 <label className={style.label} htmlFor="name">Recipe Name: 

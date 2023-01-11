@@ -36,7 +36,7 @@ if(recipes.length){
         <div className={style.filt}>
             
           <form onSubmit={submitHandler} onChange={changeHandler}>
-          <label className={style.sep} htmlFor="filter">Select a Diet Type: </label>
+          <label htmlFor="filter">Select a Diet Type: </label>
           <select className={style.sep} name="filter" id="filter">
           <option value="" disabled selected hidden>Choose a Diet</option>
           {dietset.map( diet => { return (

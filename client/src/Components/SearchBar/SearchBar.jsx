@@ -33,7 +33,7 @@ class SearchBar extends Component {
         return (
             <div className={style.search}>
                 <form onSubmit={this.handleSubmit}>
-                <label htmlFor="search">Recipe Search: </label>
+                <label htmlFor="search">Search: </label>
                 <input 
                 name="search" 
                 type="text" 
@@ -48,7 +48,7 @@ class SearchBar extends Component {
                 type="submit" 
                 name="submit"
                 >
-                Let's search!
+                Go!
                 </button>
                 </form>
                 <div className={style.errors}>

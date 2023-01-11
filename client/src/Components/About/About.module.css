@@ -9,7 +9,7 @@
     color: #282c34; 
     width:45%; 
     height: auto;
-    padding: 0x 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-family:sans-serif;
     margin-bottom:30px;
     margin-top:5px;
@@ -27,5 +27,15 @@
    font-weight:bold
 }
 
+
+@media(max-width:600px){
+    .carddetail{
+      width: 99% ; 
+      font-size: 17px ; 
+      border-radius:2px; 
+      margin-top:28px;
+    }
+    
+  }
 
  

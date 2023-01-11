@@ -140,4 +140,31 @@
     align-items:center
 }
 
-  
+@media(max-width:600px){
+    .diets{
+      width: 31% ; 
+      font-size: 15px ; 
+      border-radius:0%; 
+    }
+    .carddetail{
+     margin-bottom: 10px
+    }
+    .cardinstructions{
+      font-size: 15px ; 
+      width: 95%
+    }
+    .carddetail{
+     width:97%
+    }
+    .row {
+        width: 80%
+    }
+    .diets p{
+        font-size:13px;
+    }
+    
+    .carddetail img{
+        width: 87%
+    }
+    
+  }
